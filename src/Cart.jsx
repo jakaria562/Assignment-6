@@ -1,10 +1,11 @@
 import React from 'react';
 
-const Cart = ({carts}) => {
+const Cart = ({carts,setCarts}) => {
   const totalPrice = carts.reduce((sum,item)=>sum+item.price,0)
   const handlePament= ()=>{
         setCarts([])
-        toast.success("Payment Successfull") }
+       
+     }
     return (
         <div>
             <h1 className='text-2xl font-bold'>

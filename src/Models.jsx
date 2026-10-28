@@ -35,7 +35,7 @@ const Models = ({modelPromise,carts,setCarts}) => {
             }
                 </div>
                 {
-                    activeTab==="cart" &&    <Cart carts={carts}></Cart>
+                    activeTab==="cart" &&    <Cart setCarts={setCarts} carts={carts}></Cart>
                 }
             </div>
 
