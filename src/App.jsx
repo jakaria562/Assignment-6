@@ -26,7 +26,7 @@ function App() {
  console.log(carts)
   return (
     <>
-         <NavBar></NavBar>
+         <NavBar  carts={carts} setCarts ={setCarts}></NavBar>
          <Banner></Banner>
          <StatsSection></StatsSection>
       
