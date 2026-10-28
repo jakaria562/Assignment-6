@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "name": "AI Resume Builder",
+    "description": "Create professional resumes with AI.",
+    "price": 9,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "100+ resume templates",
+      "ATS optimization",
+      "Export to PDF",
+      "AI content suggestions"
+    ],
+    "icon": "FileUser",
+    "img": "https://i.ibb.co.com/HfpRvDtg/design-tool.png"
+  },
+  {
+    "id": 2,
+    "name": "AI Image Generator",
+    "description": "Generate stunning images from text prompts.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Text-to-image generation",
+      "High-resolution images",
+      "Multiple art styles",
+      "Commercial usage"
+    ],
+    "icon": "Image",
+    "img": "https://i.ibb.co.com/hR5ZjgMw/operation.png"
+  },
+  {
+    "id": 3,
+    "name": "AI Writing Assistant",
+    "description": "Write blogs, emails, and engaging content faster.",
+    "price": 49,
+    "period": "yearly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Blog post generation",
+      "Grammar correction",
+      "Content rewriting",
+      "SEO-friendly writing"
+    ],
+    "icon": "PenTool",
+    "img": "https://i.ibb.co.com/kgQC2xpM/portfolio.png"
+  },
+  {
+    "id": 4,
+    "name": "AI Code Assistant",
+    "description": "Write and debug code with AI-powered assistance.",
+    "price": 14,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Code generation",
+      "Bug detection",
+      "Code explanations",
+      "Multiple language support"
+    ],
+    "icon": "Code2",
+    "img": "https://i.ibb.co.com/1YNFsPN1/shopping-cart.png"
+  },
+  {
+    "id": 5,
+    "name": "AI Video Creator",
+    "description": "Turn your ideas into engaging videos.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Text-to-video generation",
+      "AI voiceovers",
+      "Video templates",
+      "HD video export"
+    ],
+    "icon": "Video",
+    "img": "https://i.ibb.co.com/nMd2rV8Y/social-media.png"
+  },
+  {
+    "id": 6,
+    "name": "AI SEO Optimizer",
+    "description": "Improve search rankings with smarter SEO tools.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Keyword research",
+      "SEO content analysis",
+      "Competitor insights",
+      "Meta description generation"
+    ],
+    "icon": "TrendingUp",
+    "img": "https://i.ibb.co.com/rRRWxd4d/writing-2327400-1.png"
+  }
+]

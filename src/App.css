@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@plugin "daisyui";
+.cart{
+    padding: 10px;
+    border: 1px solid red;
+    max-width: 350px;
+    border-radius: 10px;
+}
