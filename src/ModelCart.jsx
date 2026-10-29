@@ -51,7 +51,7 @@ const ModelCart = ({model,carts,setCarts}) => {
   className={`btn rounded-3xl btn-block ${
     buy
       ? "bg-green-600 text-white"
-      : "bg-gradient-to-r from-purple-600 to-fuchsia-500 text-white"
+      : "bg-linear-to-r from-purple-600 to-fuchsia-500 text-white"
   }`}
   onClick={handleBuy}
 >

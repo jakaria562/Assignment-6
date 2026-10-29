@@ -23,7 +23,7 @@ const Models = ({modelPromise,carts,setCarts}) => {
   <input type="radio" name="my_tabs_1"  className= {`tab rounded-full w-40 ${activeTab ==="cart" ? " bg-linear-to-r from-purple-600 to-fuchsia-500 text-white": "bg-white text-black"}`} aria-label={`Cart (${carts.length})`} onClick={()=> setActiveTab("cart")} />
  
 </div>
-                <div  className='mt-10 grid md:grid-cols-2 lg:grid-cols-3 gap-6'>
+                <div  className='mt-10 grid md:grid-cols-2 mx-auto ml-15 lg:grid-cols-3 gap-6'>
                        {
                 models.map(model => 
                     <div>

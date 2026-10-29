@@ -14,7 +14,7 @@ const GetStart = () => {
       </div>
 
            
-     <div className='grid grid-cols-3'>
+     <div className='mt-10 grid md:grid-cols-2 mx-auto ml-15 lg:grid-cols-3 gap-6'>
           <div className=''>
             <div className="card w-96 bg-base-100 shadow-2xl">
   <div className="card-body">

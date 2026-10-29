@@ -11,7 +11,7 @@ const Simple = () => {
                         <p>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
                        </div>
 
-                    <div className='grid grid-cols-3'>
+                    <div className='mt-10 grid md:grid-cols-2 mx-auto ml-15 lg:grid-cols-3 gap-6'>
                                         <div className="card w-96 bg-base-100 shadow-sm">
   <div className="card-body">
   
@@ -129,7 +129,7 @@ const Simple = () => {
       </li>
     </ul>
     <div className="mt-6">
-      <button className="btn bg-gradient-to-r from-purple-600 to-fuchsia-500 rounded-3xl btn-block">Get Started Free</button>
+      <button className="btn bg-linear-to-r from-purple-600 to-fuchsia-500 rounded-3xl btn-block">Get Started Free</button>
     </div>
   </div>
 </div>

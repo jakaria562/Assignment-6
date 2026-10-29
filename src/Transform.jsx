@@ -3,7 +3,7 @@ import React from 'react';
 const Transform = () => {
     return (
         <div>
-                <section className="bg-gradient-to-r from-violet-600 to-fuchsia-600 px-6 py-16 mt-25 text-center text-white md:py-20">
+                <section className="bg-linear-to-r from-violet-600 to-fuchsia-600 px-6 py-16 mt-25 text-center text-white md:py-20">
       <h2 className="mb-3 text-2xl font-bold md:text-3xl">
         Ready To Transform Your Workflow?
       </h2>

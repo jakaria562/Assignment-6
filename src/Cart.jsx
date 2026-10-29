@@ -13,7 +13,7 @@ const Cart = ({carts,setCarts}) => {
                   const filterArry =carts.filter(c=>c.id!=item.id)
                   setCarts(filterArry);
 
-                  
+
                   toast.error("Item Deleted")
      }
     return (
@@ -23,7 +23,8 @@ const Cart = ({carts,setCarts}) => {
             </h1>
 
             {
-                carts.length === 0? <div className='text-center w-300 h-60 mt-10 shadow-2xl'>
+                carts.length === 0? <div className=' text-center w-200 h-60 mt-10 mx-auto  shadow-2xl '>
+                  
                     <p className='text-2xl pt-5 '>Cart is empty</p>
                     <div className='text-5xl flex justify-center items-center mt-10'><FaShoppingCart/></div>
                     </div>:

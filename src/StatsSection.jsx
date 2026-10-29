@@ -4,7 +4,7 @@ const StatsSection = () => {
     return (
         <div>
              <section className="w-full px-0 py-10">
-      <div className="w-full bg-gradient-to-r from-violet-600 to-fuchsia-600 px-6 py-8 text-white shadow-lg">
+      <div className="w-full bg-linear-to-r from-violet-600 to-fuchsia-600 px-6 py-8 text-white shadow-lg">
         <div className="grid grid-cols-3 text-center">
 
           <div className="border-r border-white/20">
