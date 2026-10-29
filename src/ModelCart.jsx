@@ -1,11 +1,22 @@
 import React, { useState } from 'react';
+import { toast } from 'react-toastify';
 
 const ModelCart = ({model,carts,setCarts}) => {
 
       const [buy,setBuy] = useState(false)
       const handleBuy =()=>{
               setBuy(true);
+                  
+
+              const isFound = carts.find(item => item.id ===model.id)
+              if(isFound){
+                toast.error("Already in Cart")
+                return;
+              }
+
+
               setCarts([...carts,model])
+              toast.success("Item Added to Cart")
       }
     return (
         <div className=''>
@@ -36,7 +47,16 @@ const ModelCart = ({model,carts,setCarts}) => {
   ))}
 </ul>
     <div className="mt-6">
-      <button className="btn bg-linear-to-r from-purple-600 to-fuchsia-500 text-white rounded-3xl btn-block" onClick={handleBuy}>{buy? "Added to Cart" : "Buy Now"} </button>
+     <button
+  className={`btn rounded-3xl btn-block ${
+    buy
+      ? "bg-green-600 text-white"
+      : "bg-gradient-to-r from-purple-600 to-fuchsia-500 text-white"
+  }`}
+  onClick={handleBuy}
+>
+  {buy ? "Added to Cart" : "Buy Now"}
+</button>
     </div>
   </div>
 </div>

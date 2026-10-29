@@ -24,13 +24,11 @@ const NavBar = ({carts,setCarts}) => {
           <li>
             <a>Testimonials</a>
           </li>
-          <li>
-            <a>FAQ</a>
-          </li>
+         
         </ul>
       </div>
-      <div className="navbar-end gap-5  pr-15">
-        <button > <span className=' p-1 rounded-full bg-red-200'> {` ${carts.length}`}</span> <IoCartOutline></IoCartOutline> </button>
+      <div className="navbar-end sm:flex justify-between gap-5 relative pr-15">
+        <button > <span className='"absolute top-1 ml-5 mt-5 right-3 flex h-5 w-5 items-center justify-center rounded-full bg-red-500 p-0 text-xs leading-none text-white'> {` ${carts.length}`}</span > <span className='text-3xl '><IoCartOutline></IoCartOutline></span> </button>
         <p>
             Login
         </p>

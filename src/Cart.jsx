@@ -1,15 +1,20 @@
 import React from 'react';
 import { FaShoppingCart } from 'react-icons/fa';
+import { toast } from 'react-toastify';
 
 const Cart = ({carts,setCarts}) => {
   const totalPrice = carts.reduce((sum,item)=>sum+item.price,0)
   const handlePament= ()=>{
         setCarts([])
+        toast.success("Pament Successfull")
        
      }
      const handleDelete = (item)=>{
                   const filterArry =carts.filter(c=>c.id!=item.id)
-                  setCarts(filterArry)
+                  setCarts(filterArry);
+
+                  
+                  toast.error("Item Deleted")
      }
     return (
         <div>
