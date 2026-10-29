@@ -1,16 +1,41 @@
-# React + Vite
+# Shopping Cart Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple and responsive shopping website built with React and Tailwind CSS. Users can explore products, add items to their cart, manage their selections, and proceed to checkout. I built this project to improve my React skills and gain hands-on experience with real-world shopping cart functionality.
 
-Currently, two official plugins are available:
+## Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React.js
+- JavaScript
+- Tailwind CSS
+- DaisyUI
+- React Toastify
+- HTML5
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Add to Cart:** Easily add products to the shopping cart.
+- **Cart Management:** View cart items, remove products, and calculate the cart total.
+- **Responsive Design:** Works smoothly on mobile, tablet, and desktop screens.
 
-## Expanding the Oxlint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+To run this project locally, follow these steps:
+
+1. Clone the repository.
+2. Open the project folder in your terminal.
+3. Install the dependencies:
+
+  
+   npm install
+  
+
+4. Start the development server:
+
+  
+   npm run dev
+   
+
+5. Open the local URL shown in your terminal.
+
+
+
